@@ -1,0 +1,121 @@
+.all {
+  background-color: #110b35;
+}
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;
+}
+.logo {
+  margin-top: 45px;
+  margin-left: 50px;
+}
+.logo h1 {
+  margin: none;
+  padding-bottom: 3px;
+  background: -webkit-linear-gradient(#11998e, #38ef7d);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.logo p {
+  color: #0cebeb;
+}
+.buttons {
+  margin: 45px;
+}
+.buttons button {
+  margin: 10px;
+  background-color: transparent;
+  border-radius: 10px;
+  border: solid;
+  border-color: transparent;
+}
+.btn-outline-primary {
+  background: -webkit-linear-gradient(#11998e, #38ef7d);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.btn-outline-primary :hover {
+  border-color: #11998e;
+}
+hr.line {
+  width: 100%;
+  border-top: 10px;
+  height: 10px;
+  background-color: rgb(54, 171, 207);
+}
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;
+}
+.logo-text p {
+  color: #0cebeb;
+}
+
+.logo-text {
+  margin: 20px;
+  margin-left: 50px;
+}
+.logo-text h1 {
+  margin: none;
+  padding-bottom: 3px;
+  background: -webkit-linear-gradient(#11998e, #38ef7d);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.logo-text article {
+  font-size: x-small;
+  color: #6ca99980;
+  width: 140px;
+}
+.bottom-buttons {
+  margin: 20px;
+  margin-left: 80px;
+  margin-right: 5px;
+}
+.bottom-buttons button {
+  margin: 10px;
+  background-color: transparent;
+  border-radius: 10px;
+  border: solid;
+  border-color: transparent;
+}
+.rectangle {
+  margin: 30px;
+  display: flex;
+  flex-direction: row;
+  background: linear-gradient(132.12deg, #11998e 0%, #38ef7d 97.56%);
+  opacity: 0.2;
+  width: 500px;
+  height: 67px;
+  border-radius: 50px 10px;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.rectangle p {
+  margin-top: 10px;
+}
+
+.rectangle-button {
+  background-color: #29ffc6;
+  border-radius: 50px 10px;
+  border: transparent;
+  color: black;
+  width: 150px;
+  opacity: 200%;
+}
+.rectangle-button :hover {
+  background-color: #29ffc6;
+  border-radius: 50px 10px;
+  border: transparent;
+  color: black;
+}
+.end {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  color: white;
+}
