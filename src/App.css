@@ -533,7 +533,7 @@
   }
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1100px) {
   .all {
     background-color: #110b35;
   }
@@ -560,8 +560,11 @@
   .buttons {
     display: flex;
     margin: 45px;
+    margin-right: -70px;
+    width: 750px;
   }
   .buttons button {
+    width: fit-content;
     margin: 10px;
     background-color: transparent;
     border-radius: 10px;
