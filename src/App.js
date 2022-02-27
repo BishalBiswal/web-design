@@ -24,7 +24,7 @@ const App=()=>{
           </h1>
           <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed, modi nisi! Voluptatibus explicabo incidunt impedit?</p>
           <div className='mid-rectangle'>
-          <p>Lorem ipsum <span><FaHeart/></span> dolor sit amet consectetur .</p>
+          <p>Lorem ipsum <span><FaHeart/></span> dolor sit amet consectetur &nbsp;</p>
           <button className='mid-button'>Lorem, ipsum.  </button>
           </div>
           
