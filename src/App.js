@@ -16,8 +16,9 @@ const App=()=>{
         </div>
       </section>
 
-      <section className='mid'>
-        <div className='mid-left'>
+      <section className='mid-container'>
+        <div className='mid'>
+          <div className='mid-left'>
           <h1>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat!
           </h1>
@@ -29,10 +30,19 @@ const App=()=>{
           
         </div>
         <div className='mid-img'>
-        <img src="./" alt="." />
+        <div className='pic1'><img src="./" alt="." /></div>
+        <div className='pic2'></div>
+        <div className='pic3'></div>
+        <div className='pic4'></div>
+        <div className='pic5'></div>
+        </div>
+        </div>
+
+        <div className='mid-footer'>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, <a href='#'>consectetur?</a></p>
         </div>
       </section>
-
+      <br /><br />
       <hr className='line'/>
       
       <section className='footer'>
