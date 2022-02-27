@@ -1,4 +1,4 @@
-
+import { FaHeart } from 'react-icons/fa';
 import './App.css';
 
 const App=()=>{
@@ -16,10 +16,25 @@ const App=()=>{
         </div>
       </section>
 
+      <section className='mid'>
+        <div className='mid-left'>
+          <h1>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat!
+          </h1>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed, modi nisi! Voluptatibus explicabo incidunt impedit?</p>
+          <div className='mid-rectangle'>
+          <p>Lorem ipsum <span><FaHeart/></span> dolor sit amet consectetur .</p>
+          <button className='mid-button'>Lorem, ipsum.  </button>
+          </div>
+          
+        </div>
+        <div className='mid-img'>
+        <img src="./" alt="." />
+        </div>
+      </section>
 
       <hr className='line'/>
-
-
+      
       <section className='footer'>
         <div className='logo-text'>
          <h1>Logo</h1><p>Lorem ipsum dolor sit amet</p><article>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Similique, laudantium?</article>
