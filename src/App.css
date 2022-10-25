@@ -246,6 +246,10 @@
     font-size: small;
   }
 
+  .mid-button p {
+    margin: 10px;
+  }
+
   span {
     color: #a83f39;
   }
@@ -521,6 +525,7 @@
   }
 
   .mid-rectangle p {
+    padding-left: 20px;
     margin-left: 20px;
     margin-top: 15px;
   }
